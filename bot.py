@@ -12,15 +12,15 @@ def bot():
     janela.update()
     pyautogui.press('winleft')
 
-    visor.insert(END, "Digitando 'ed'...\n")
+    visor.insert(END, "Digitando 'microsoft edge'...\n")
     janela.update()
-    pyautogui.write('ed')
+    pyautogui.write('microsoft edge')
 
     visor.insert(END, "Pressionando Enter...\n")
     janela.update()
     pyautogui.press('enter')
 
-    time.sleep(50)
+    time.sleep(30)
 
     visor.insert(END, "Digitando 'https://www.google.com.br/'...\n")
     janela.update()
